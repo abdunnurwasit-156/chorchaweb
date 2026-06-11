@@ -3,7 +3,6 @@ import { useEffect, useState } from "react";
 
 const TABS = [
   { id: "overview",     label: "ওভারভিউ" },
-  { id: "method",       label: "চর্চা মেথড" },
   { id: "live-test",    label: "লাইভ মডেল টেস্ট" },
   { id: "progress",     label: "প্রোগ্রেস" },
   { id: "coach",        label: "চর্চা কোচ" },
