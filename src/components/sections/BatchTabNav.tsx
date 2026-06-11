@@ -3,12 +3,11 @@ import { useEffect, useState } from "react";
 
 const TABS = [
   { id: "overview",     label: "ওভারভিউ" },
+  { id: "syllabus",     label: "সিলেবাস" },
+  { id: "instructors",  label: "শিক্ষকগণ" },
   { id: "live-test",    label: "লাইভ মডেল টেস্ট" },
   { id: "progress",     label: "প্রোগ্রেস" },
   { id: "coach",        label: "চর্চা কোচ" },
-  { id: "syllabus",     label: "সিলেবাস" },
-  { id: "instructors",  label: "শিক্ষকগণ" },
-  { id: "features",     label: "ফিচার" },
   { id: "payment",      label: "পেমেন্ট" },
   { id: "faq",          label: "FAQ" },
 ];
